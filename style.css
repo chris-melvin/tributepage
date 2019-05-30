@@ -1,0 +1,44 @@
+
+
+#title {
+    color: blue;
+  
+}
+
+#main {
+
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+#img-caption {
+    font-size: 10px;
+    color: gray;
+}
+#image {
+    max-width: 100%;
+    display: block;
+}
+
+table {
+    border: 1px solid black;
+}
+
+#tribute-info {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 20px;
+}
+
+@media (max-width: 768px) {
+    #tribute-info {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+th,
+td {
+    padding: 0 15px;
+    text-align: left;
+}
